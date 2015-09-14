@@ -55,6 +55,9 @@ ax.set_ylim(-0.1, 1.1)
 
 ax.text(0, 0.4, '68%', fontsize=12, color='w', va='center', ha='center')
 
+plt.text(0.7,1,"Francisco Loyola",fontsize=9)
+plt.text(0.7,0.9,"francisco.loyola@ing.uchile.cl",fontsize=9)
+
 fig.subplots_adjust(bottom=0.30)
 
 # ax.tick_params(axis='x', which='major', labelsize=10, top='off')
